@@ -25,7 +25,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 * Used the Code First approach.
 * Used the IHttpActionResult class to response data.
-* Book Id always will send.
 * Book Id is not AutoIncremented, Need to send bookid in POST Method as well. As per mentioned in the job "POST /book/{id} - create book".
 * In Patch request(Partial Update), I have updated only the two fields.
 * For author I have created a seperate table instead of adding comma seperated in the same field for scalability and best solution.
